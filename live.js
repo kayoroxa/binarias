@@ -1,6 +1,6 @@
 const catalogation = [
   //
-  1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0,
+  1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1,
 ]
 
 const verdeMaioria =
@@ -8,4 +8,4 @@ const verdeMaioria =
     .slice(catalogation.length - 11, catalogation.length)
     .filter(x => x === 1).length > 5
 
-console.log()
+console.log(verdeMaioria ? 'verde' : 'vermelho')
